@@ -6,7 +6,7 @@ body {
 
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /* General Rules  */
@@ -28,15 +28,15 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background: black;
   color: white;
   padding-left: 2rem;
   height: 2rem;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .top-header-navbar a {
@@ -70,8 +70,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .search-icon {
@@ -94,8 +94,8 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .nav-message-content {
@@ -108,11 +108,11 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-left: 2rem;
   height: 3em;
 }
@@ -221,7 +221,7 @@ body {
   color: #fff;
   font-size: 1.5rem;
   font-weight: bolder;
-  margin: 0.1px 0.1px 3% 1%;
+  margin: 0.1px 0.1px 1.5% 1%;
 }
 
 /* Media Queries  */
@@ -233,22 +233,29 @@ body {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 100vh;
   }
 
-  .main-article-left {
-    height: 30%;
+  .cover-section {
+    margin: 28% 0.1px 1% 1%;
   }
 
-  .main-article-right-one {
-    height: 30%;
+  .cover-title {
+    font-size: 1.5rem;
   }
 
+  .main-article-created_at {
+    display: none;
+  }
+
+  .main-article-left,
+  .main-article-right-one,
   .main-article-right-two {
-    height: 30%;
+    height: 32.5%;
   }
 }

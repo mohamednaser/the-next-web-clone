@@ -194,7 +194,7 @@ body {
   color: #fff;
   font-size: 1.5rem;
   font-weight: bolder;
-  margin: 0.1px 0.1px 3% 1%;
+  margin: 0.1px 0.1px 1.5% 1%;
 }
 
 /* Media Queries  */
@@ -204,17 +204,24 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 100vh;
   }
 
-  .main-article-left {
-    height: 30%;
+  .cover-section {
+    margin: 28% 0.1px 1% 1%;
   }
 
-  .main-article-right-one {
-    height: 30%;
+  .cover-title {
+    font-size: 1.5rem;
   }
 
+  .main-article-created_at {
+    display: none;
+  }
+
+  .main-article-left,
+  .main-article-right-one,
   .main-article-right-two {
-    height: 30%;
+    height: 32.5%;
   }
 }
