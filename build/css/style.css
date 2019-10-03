@@ -234,12 +234,29 @@ body {
 
 .article-info-side1 {
   position: absolute;
-  bottom: 54%;
+  bottom: 56.5%;
 }
 
 .article-info-side2 {
   position: absolute;
   bottom: 22.5%;
+}
+
+/* Latest news */
+
+.latest-news {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  width: 80%;
+  font-size: 0.5rem;
+  height: 600px;
+}
+
+
+.lat-new-art {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/wormhole-533x270.jpg");
 }
 
 /* Media Queries  */
