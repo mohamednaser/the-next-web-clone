@@ -165,9 +165,6 @@ body {
   text-transform: uppercase;
 }
 
-.main-article-right-one {
-}
-
 .cover-title {
   font-family: "Quicksand", sans-serif;
   color: #fff;
@@ -211,15 +208,13 @@ body {
 
   .main-article-left {
     height: 30%;
-    /* margin-bottom: 2rem; */
   }
 
   .main-article-right-one {
     height: 30%;
-    /* margin-bottom: 2rem; */
   }
+
   .main-article-right-two {
     height: 30%;
-    /* margin-bottom: 2rem; */
   }
 }
