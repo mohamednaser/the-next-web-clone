@@ -1,0 +1,69 @@
+body {
+  background-color: #fff;
+}
+
+* {
+  border: 12px solid red;
+}
+
+/* General Rules  */
+
+/* Navigation Bar  */
+
+.nav-tnw {
+  display: inline-flex;
+}
+
+.top-header-navbar {
+  display: inline-block;
+}
+
+.nav-logo {
+  display: inline-block;
+  background-color: red;
+}
+
+.right-div {
+  display: block;
+  float: right;
+  width: 20%;
+}
+
+.nav-company li {
+  padding-right: 2vh;
+}
+
+.nav-company {
+  display: flex;
+}
+
+.nav-sections {
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-icon {
+  width: 5vh;
+  margin-right: 5vh;
+}
+
+.search-icon-div {
+  display: inline;
+  float: right;
+}
+
+.nav-section-div {
+  width: 30%;
+  display: inline-block;
+}
+
+.nav-message-answers {
+  background-color: #fd3;
+  height: 8vh;
+  vertical-align: middle;
+}
+
+.nav-message-content {
+  line-height: 8vh;
+  padding-left: 5%;
+}
