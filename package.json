@@ -1,0 +1,23 @@
+{
+  "name": "design-teardown",
+  "version": "1.0.0",
+  "description": "The New York Times Article Clone project is aimed at applying the knowledge of basic HTML and CSS structure to build an exact copy of New York Times Article Page.",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamednaser/Design-Teardown.git"
+  },
+  "author": "Mohamed NAser , Marcos mederios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamednaser/Design-Teardown/issues"
+  },
+  "homepage": "https://github.com/mohamednaser/Design-Teardown#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.0"
+  }
+}
