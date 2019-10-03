@@ -1,9 +1,12 @@
 body {
   background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 
 * {
-  border: 12px solid red;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /* General Rules  */
@@ -16,16 +19,37 @@ body {
   display: inline-flex;
 }
 
+.nav-tnw li {
+  padding-right: 0.8em;
+}
+
 .top-header-navbar {
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: black;
+  color: white;
+  padding-left: 2rem;
+  height: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top-header-navbar a {
+  text-decoration: none;
+  color: white;
 }
 
 .nav-logo {
-  display: inline-block;
+  display: none;
   background-color: red;
 }
 
-.right-div {
+.right-list {
   display: block;
   float: right;
   width: 20%;
@@ -56,8 +80,7 @@ body {
 }
 
 .search-icon-div {
-  display: inline;
-  float: right;
+  display: inline-block;
 }
 
 .nav-section-div {
@@ -67,11 +90,48 @@ body {
 
 .nav-message-answers {
   background-color: #fd3;
-  height: 8vh;
-  vertical-align: middle;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .nav-message-content {
-  line-height: 8vh;
-  padding-left: 5%;
+  font-size: 0.8rem;
+  padding: 0.5em 0 0.5em 2rem;
+}
+
+.second-header-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 2rem;
+  height: 3em;
+}
+
+.second-header-navbar a {
+  text-decoration: none;
+  color: #555;
+  font-family: "Ropa Sans", sans-serif;
+}
+
+.second-header-navbar button {
+  height: 100%;
+  background-color: white;
+  width: 5%;
+  border-style: none;
+  border-left: 1px solid #eee;
+  text-align: center;
+}
+
+.fa-search {
+  padding-right: 2em;
 }
