@@ -161,16 +161,17 @@ body {
   margin: 35% 0.1px 1% 1%;
   display: inline-block;
   color: #fff;
-  font-size: 14px;
+  font-size: 1.5vw;
   text-transform: uppercase;
 }
 
 .cover-title {
   font-family: "Quicksand", sans-serif;
   color: #fff;
-  font-size: 3rem;
+  font-size: 3vw;
   font-weight: bolder;
   margin: 0.1px 0.1px 3% 1%;
+  max-width: 60vw;
 }
 
 .cover-byline {
@@ -182,6 +183,7 @@ body {
 .cover-byline li {
   padding-right: 1rem;
   color: #fff;
+  font-size: 1vw;
 }
 
 .cover-byline li a {
@@ -192,9 +194,24 @@ body {
 .cover-title-right {
   font-family: "Quicksand", sans-serif;
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   font-weight: bolder;
   margin: 0.1px 0.1px 1.5% 1%;
+}
+
+.article-info {
+  position: absolute;
+  bottom: 25%;
+}
+
+.article-info-side1 {
+  position: absolute;
+  bottom: 57%;
+}
+
+.article-info-side2 {
+  position: absolute;
+  bottom: 22.5%;
 }
 
 /* Media Queries  */
@@ -209,10 +226,16 @@ body {
 
   .cover-section {
     margin: 28% 0.1px 1% 1%;
+    font-size: 2.5vw;
   }
 
   .cover-title {
-    font-size: 1.5rem;
+    font-size: 4vw;
+    max-width: 90vw;
+  }
+
+  .cover-byline li {
+    font-size: 1.5vw;
   }
 
   .main-article-created_at {
@@ -223,5 +246,25 @@ body {
   .main-article-right-one,
   .main-article-right-two {
     height: 32.5%;
+  }
+
+  .article-info {
+    position: absolute;
+    bottom: 57%;
+  }
+
+  .article-info-side1 {
+    position: absolute;
+    bottom: -12%;
+  }
+
+  .article-info-side2 {
+    position: absolute;
+    bottom: 22.5%;
+  }
+
+  .cover-title-right {
+    font-size: 4vw;
+    max-width: 90vw;
   }
 }
