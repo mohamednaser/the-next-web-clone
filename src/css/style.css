@@ -115,7 +115,7 @@ body {
 .main-articles-div {
   display: grid;
   grid-template-columns: 65% auto;
-  grid-gap: 2vh;
+  grid-gap: 1vh;
   grid-template-rows: auto auto;
   height: 66vh;
   margin: 1vh;
@@ -224,7 +224,6 @@ body {
   font-size: 0.5rem;
   height: 600px;
 }
-
 
 .lat-new-art {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/wormhole-533x270.jpg");
