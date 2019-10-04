@@ -229,8 +229,8 @@ body {
 /* Latest news */
 
 .latest-news-container {
-  margin: 4vh auto;
-  width: 90%;
+  margin: 20vh auto 0 auto;
+  width: 65%;
 }
 
 .latest-news-flex {
@@ -265,9 +265,10 @@ body {
 
 .section-title {
   color: #f42;
-  font-size: 2vw;
+  font-size: 1.5vw;
   display: block;
   font-weight: bold;
+  margin: 0;
 }
 
 .story-title {
