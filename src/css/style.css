@@ -291,8 +291,8 @@ body {
 }
 
 .category-item {
-  width: 33.3%;
-  /* border: 0.5px solid red; */
+  width: 32%;
+  margin: 1vh auto 5vh 2vh;
 }
 
 .category-one {
