@@ -175,6 +175,69 @@ body {
   max-width: 60vw;
 }
 
+/* funds story  */
+.story-investmentCard-company-image {
+  width: 15%;
+  position: absolute;
+  top: 5px;
+  left: 22px;
+}
+
+.fund-story {
+  width: 25%;
+  position: relative;
+}
+
+.fund-story-paragraph {
+  width: 60%;
+  margin: auto;
+  font-size: 1rem;
+  padding-top: 3vh;
+  line-height: 4vh;
+}
+
+.investmentCard-name {
+  font-size: 1.5rem;
+  text-align: center;
+  background: red;
+  color: white;
+  padding: 1vh 15vh 0 0;
+  font-weight: bold;
+}
+
+.story-investmentCard-deets {
+  background-color: #fee9e5;
+}
+
+.story-investmentCard-deets h4 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+  padding: 1vh 15vh 0 0;
+}
+
+.story-investmentCard-deets h5 {
+  font-size: 1rem;
+  color: #7f7472;
+  text-align: center;
+  padding: 1vh 10vh 0 0;
+  text-transform: uppercase;
+}
+
+.saas-icon-div span,
+.Salesforce-div span {
+  display: inline-block;
+  font-size: 1rem;
+  color: #555;
+  padding-left: 2vh;
+  margin-top: 2vh;
+}
+
+.story-investmentCard-card {
+  padding-bottom: 2vh;
+  border-bottom: 1px solid #fdc5bc;
+}
+
 .story-title a {
   text-decoration: none;
   color: #000;
@@ -237,6 +300,7 @@ body {
 .latest-news-flex {
   display: flex;
   width: 100%;
+  margin-top: 5vh;
   font-size: 0.5rem;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -267,7 +331,7 @@ body {
 .section-title {
   color: #f42;
   font-size: 1.5vw;
-  display: block;
+  display: inline-block;
   font-weight: bold;
   margin: 0;
 }
@@ -284,10 +348,6 @@ body {
   border-left: 1px solid red;
   color: #f42;
   font-size: 1.1rem;
-}
-
-.section-title {
-  display: inline-block;
 }
 
 .latest-funding-list {
@@ -313,7 +373,8 @@ body {
 }
 
 .category-one {
-  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2Fworkingontech.jpg&signature=c078492c41d6c7807db1059e8d78dc3d")
+  background:
+    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2Fworkingontech.jpg&signature=c078492c41d6c7807db1059e8d78dc3d")
     no-repeat;
   background-size: 100% 100%;
 }
