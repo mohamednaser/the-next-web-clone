@@ -342,3 +342,17 @@ body {
     width: 100%;
   }
 }
+
+/* Recent news by category */
+
+.recent-category-container {
+  display: flex;
+}
+
+.latest-category-img {
+  width: 25%;
+}
+
+.category-latest {
+  display: flex;
+}
