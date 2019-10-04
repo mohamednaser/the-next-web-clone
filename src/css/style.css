@@ -229,8 +229,8 @@ body {
 
 /* Latest news */
 
-.latest-news-container {
-  margin: 20vh auto 0 auto;
+.middle-articles-section {
+  margin: 5% auto 0 auto;
   width: 65%;
 }
 
@@ -341,9 +341,4 @@ body {
   .lat-new-art {
     width: 100%;
   }
-}
-
-.microsoft-surface-container {
-  margin: 20vh auto 0 auto;
-  width: 65%;
 }
