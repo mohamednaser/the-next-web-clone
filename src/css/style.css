@@ -331,7 +331,7 @@ body {
     max-width: 90vw;
   }
 
-  /* // handle latest news section  */
+  /* // handle other articles section  */
 
   .latest-news-flex {
     flex-direction: column;
@@ -340,4 +340,9 @@ body {
   .lat-new-art {
     width: 100%;
   }
+}
+
+.microsoft-surface-container {
+  margin: 20vh auto 0 auto;
+  width: 65%;
 }
