@@ -292,12 +292,10 @@ body {
 
 .category-item {
   width: 33.3%;
-  /* border: 0.5px solid red; */
 }
 
 .category-one {
-  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2Fworkingontech.jpg&signature=c078492c41d6c7807db1059e8d78dc3d")
-    no-repeat;
+  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2Fworkingontech.jpg&signature=c078492c41d6c7807db1059e8d78dc3d") no-repeat;
   background-size: 100% 100%;
 }
 
@@ -372,10 +370,21 @@ body {
   padding-bottom: 1.5vh;
   margin-bottom: 0.5rem;
   border-bottom: 0.2px solid #eee;
+  color: #555;
 }
 
-.category-articles-li a {
-  text-decoration: none;
+/* Handles Latest deals section */
+
+.deal-image {
+  width: 10%
+}
+
+.latest-deals {
+  display: flex;
+}
+
+.latest-deals-item {
+  border: 0.5px solid red;
 }
 
 /* Media Queries  */
@@ -396,6 +405,11 @@ body {
   .cover-title {
     font-size: 4vw;
     max-width: 90vw;
+  }
+
+  .category-articles-li a {
+    text-decoration: none;
+    color: #555;
   }
 
   .cover-byline li {
