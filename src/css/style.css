@@ -278,6 +278,23 @@ body {
   font-size: 1rem;
 }
 
+.latest-funding-item {
+  margin-left: 1.5vh;
+  padding-left: 5px;
+  border-left: 1px solid red;
+  color: #f42;
+  font-size: 1.1rem;
+}
+
+.section-title {
+  display: inline-block;
+}
+
+.latest-funding-list {
+  display: flex;
+  float: right;
+}
+
 /* Recent news by category */
 
 .recent-category-container {
@@ -372,10 +389,32 @@ body {
   padding-bottom: 1.5vh;
   margin-bottom: 0.5rem;
   border-bottom: 0.2px solid #eee;
+  color: #555;
 }
 
-.category-articles-li a {
-  text-decoration: none;
+/* Handles footer */
+
+.social-media-footer {
+  background-color: gray;
+  text-align: center;
+  height: 10rem;
+}
+
+.footer-links-social li {
+  display: inline;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.footer-links-menu li {
+  display: inline;
+}
+
+.copyrights {
+  color: white;
+  background-color: #000;
+  height: 5rem;
+  text-align: center;
 }
 
 /* Media Queries  */
@@ -396,6 +435,11 @@ body {
   .cover-title {
     font-size: 4vw;
     max-width: 90vw;
+  }
+
+  .category-articles-li a {
+    text-decoration: none;
+    color: #555;
   }
 
   .cover-byline li {
