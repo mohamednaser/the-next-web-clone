@@ -274,6 +274,12 @@ header ul {
   font-size: 1vw;
 }
 
+.category-articles-li a {
+  text-decoration: none;
+  color: #555;
+  line-height: 4vh;
+}
+
 .cover-byline li a {
   color: #fff;
   text-decoration: none;
@@ -310,7 +316,7 @@ header ul {
 
 .middle-articles-section {
   margin: 5% auto 0 auto;
-  width: 90%;
+  width: 75%;
 }
 
 .latest-news-flex {
@@ -389,18 +395,18 @@ header ul {
 }
 
 .category-item {
-  width: 27.5vw;
+  width: 30%;
   margin: 1vh auto 5vh 2vh;
 }
 
 .img-container {
-  width: 26%;
+  width: 96px;
+  height: 22vh;
   float: right;
 }
 
 .category-one {
-  background:
-    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2Fworkingontech.jpg&signature=c078492c41d6c7807db1059e8d78dc3d")
+  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2Fworkingontech.jpg&signature=c078492c41d6c7807db1059e8d78dc3d")
     no-repeat;
   background-size: 100% 100%;
 }
@@ -416,14 +422,13 @@ header ul {
   width: 100%;
   float: right;
   display: block;
-  max-height: 100%;
+  height: 100%;
 }
 
 .category-latest {
   display: inline-block;
-  height: 11vh;
+  height: 22vh;
   background-color: #fff2f0;
-  width: 27.5vw;
 }
 
 .section-popular-section {
@@ -432,6 +437,20 @@ header ul {
   font-weight: bold;
   color: white;
   margin-bottom: 3vh;
+}
+
+.author-anchor {
+  text-decoration: none;
+  color: hsla(0, 0%, 100%, 0.6);
+  padding-right: 1em;
+}
+
+.timeago {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.category-articles-ul {
+  margin-top: 5vh;
 }
 
 .section-popular-title {
@@ -460,8 +479,7 @@ header ul {
 
 .latest-info {
   display: inline-block;
-  padding-left: 1vw;
-  padding-bottom: 1vh;
+  padding: 1vh 0 1vh 1vw;
 }
 
 .latest-word {
@@ -475,15 +493,23 @@ header ul {
   display: inline-block;
   color: red;
   font-weight: bold;
+  line-height: 1.5em;
 }
 
 .category-articles-li {
   text-decoration: none;
-  list-style-type: circle;
   padding-bottom: 1.5vh;
   margin-bottom: 0.5rem;
   border-bottom: 0.2px solid #eee;
   color: #555;
+  max-width: 90%;
+  list-style: none;
+}
+
+.category-articles-li::before {
+  content: "•   ";
+  color: red;
+  margin-right: 2vh;
 }
 
 /* Handles footer */
@@ -571,12 +597,6 @@ footer {
   .category-articles-li a {
     text-decoration: none;
     color: #555;
-  }
-
-  .author-anchor {
-    text-decoration: none;
-    color: white;
-    padding-right: 1em;
   }
 
   .cover-byline li {
