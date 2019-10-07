@@ -86,7 +86,7 @@ header {
 }
 
 .nav-section-div {
-  width: 30%;
+  width: 60%;
   display: inline-block;
 }
 
@@ -418,8 +418,7 @@ header {
 }
 
 .category-one {
-  background:
-    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2Fworkingontech.jpg&signature=c078492c41d6c7807db1059e8d78dc3d")
+  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2Fworkingontech.jpg&signature=c078492c41d6c7807db1059e8d78dc3d")
     no-repeat;
   background-size: 100% 100%;
 }
@@ -590,6 +589,25 @@ footer {
 /* Media Queries  */
 
 @media (max-width: 670px) {
+  /* header style  */
+  .second-header-navbar {
+    padding-left: 0;
+  }
+
+  .search-header {
+    text-align: center;
+    top: 21%;
+    right: 3%;
+    position: absolute;
+  }
+
+  .menu-header {
+    top: 21%;
+    right: 3%;
+    position: absolute;
+  }
+
+  /* main articles style  */
   .main-articles-div {
     display: flex;
     flex-direction: column;
@@ -780,8 +798,18 @@ footer {
     padding-top: 6px;
   }
 
-  .buttons-wrapper {
-    float: right;
-    height: 100%;
+  .mobile-nav-logo > a {
+    color: #fff;
+  }
+
+  .mobile-nav-logo > a {
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    height: 5.4vh;
+    padding: 12px 20px;
+    text-align: center;
+    width: 21%;
   }
 }
