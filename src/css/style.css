@@ -429,6 +429,28 @@ header {
   background-size: 100% 100%;
 }
 
+.category-three {
+  background:
+    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2FApple-TV-back-to-the-future-header-image.png&signature=b29ff516bed469a9a4531bfcfb7003ee")
+    no-repeat;
+  background-size: 100% 100%;
+}
+
+
+.category-four {
+  background:
+    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2FApple-TV-back-to-the-future-header-image.png&signature=b29ff516bed469a9a4531bfcfb7003ee")
+    no-repeat;
+  background-size: 100% 100%;
+}
+
+.category-five {
+  background:
+    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2FApple-TV-back-to-the-future-header-image.png&signature=b29ff516bed469a9a4531bfcfb7003ee")
+    no-repeat;
+  background-size: 100% 100%;
+}
+
 .category-title {
   font-size: 2rem;
   color: red;
