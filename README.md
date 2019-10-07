@@ -1,8 +1,8 @@
 # The Next Web Clone
 
-The New York Times Article Clone project is aimed at applying the knowledge of basic HTML and CSS structure to build an exact copy of New York Times Article Page.
+The Next Web Clone project is aimed at applying the knowledge of basic HTML and CSS structure to build an exact copy of The Next Web WebSite With Responsive Design.
 
-[Click to go to Original New York Times Article](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html)
+[Click to go to Original WebSite](https://thenextweb.com/)
 
 ## Authors
 
@@ -18,6 +18,7 @@ This project was executed by the duo of :
 - Flex & Grids
 - FontAwsome v5.11.2
 - MarkDown Syntax
+- Gulp
 
 ## Done Work
 
@@ -35,7 +36,7 @@ This project was executed by the duo of :
 Open your git bash and cd to the location you'd like to put your files the run the command below.
 
 ```console
-git clone https://github.com/mvsmdrs/displaying-and-inputting-data.git
+git clone git@github.com:mohamednaser/the-next-web-clone.git
 ```
 
 ## Live Version
@@ -43,5 +44,8 @@ git clone https://github.com/mvsmdrs/displaying-and-inputting-data.git
 Live version [here](www.google.com) [pending].
 
 ## ScreenShot For Page
+### ScreenShot In Desktop Screen
+![Image of Yaktocat](./src/imgs/full_page_screenshot.png)
 
+### ScreenShot In Screen < 670px
 ![Image of Yaktocat](./src/imgs/full_page_screenshot.png)

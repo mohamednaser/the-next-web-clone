@@ -86,7 +86,7 @@ header {
 }
 
 .nav-section-div {
-  width: 30%;
+  width: 60%;
   display: inline-block;
 }
 
@@ -588,6 +588,25 @@ footer {
 /* Media Queries  */
 
 @media (max-width: 670px) {
+  /* header style  */
+  .second-header-navbar {
+    padding-left: 0;
+  }
+
+  .search-header {
+    text-align: center;
+    top: 21%;
+    right: 3%;
+    position: absolute;
+  }
+
+  .menu-header {
+    top: 21%;
+    right: 3%;
+    position: absolute;
+  }
+
+  /* main articles style  */
   .main-articles-div {
     display: flex;
     flex-direction: column;
@@ -778,8 +797,15 @@ footer {
     padding-top: 6px;
   }
 
-  .buttons-wrapper {
-    float: right;
-    height: 100%;
+  .mobile-nav-logo > a {
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    height: 5.4vh;
+    padding: 12px 20px;
+    text-align: center;
+    width: 21%;
   }
 }
