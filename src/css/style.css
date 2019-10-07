@@ -1,6 +1,6 @@
 body {
   background-color: #fff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
 }
 
@@ -21,6 +21,10 @@ header {
   top: 0;
   width: 100%;
   position: fixed;
+}
+
+.mobile-nav-bar {
+  display: none;
 }
 
 .nav-tnw {
@@ -409,12 +413,13 @@ header {
 
 .img-container {
   width: 96px;
-  height: 22vh;
+  height: 100%;
   float: right;
 }
 
 .category-one {
-  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2Fworkingontech.jpg&signature=c078492c41d6c7807db1059e8d78dc3d")
+  background:
+    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2Fworkingontech.jpg&signature=c078492c41d6c7807db1059e8d78dc3d")
     no-repeat;
   background-size: 100% 100%;
 }
@@ -654,6 +659,10 @@ footer {
     width: 95%;
   }
 
+  .middle-articles-section ul {
+    padding-left: 0;
+  }
+
   .section-title {
     font-size: 1.5rem;
     margin-top: 6vh;
@@ -699,11 +708,20 @@ footer {
   .investmentCard-name,
   .story-investmentCard-deets h4,
   .story-investmentCard-deets h5 {
-    padding: 1vh 40vh 1vh 0;
+    padding: 1vh 60vw 1vh 15vw;
   }
 
   .fund-story {
     width: 100%;
+  }
+
+  .fund-story-paragraph {
+    width: 60%;
+    margin: 3vh auto 2vh 2vh;
+    line-height: 2vh;
+    font-size: small;
+    color: #5a5a5a;
+    background-color: #fffaf8;
   }
 
   .saas-icon-div,
@@ -717,9 +735,53 @@ footer {
 
   .category-latest {
     display: flow-root;
+    height: 10vh;
   }
 
   .latest-info-tittle {
     max-width: 100%;
+  }
+
+  .article-header {
+    position: absolute;
+    bottom: 0;
+    margin-left: 3vw;
+  }
+
+  .main-article-in-category {
+    position: relative;
+    height: 50vh;
+    margin: 0;
+  }
+
+  .top-header-navbar {
+    display: none;
+  }
+
+  .nav-sections {
+    display: none;
+  }
+
+  .mobile-nav-bar {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .search-icon-div {
+    display: none;
+  }
+
+  .TNW-logo {
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
+    width: 106px;
+    height: 48px;
+    text-align: center;
+    padding-top: 6px;
+  }
+
+  .buttons-wrapper {
+    float: right;
+    height: 100%;
   }
 }
