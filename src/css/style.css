@@ -418,7 +418,8 @@ header {
 }
 
 .category-one {
-  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2Fworkingontech.jpg&signature=c078492c41d6c7807db1059e8d78dc3d")
+  background:
+    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2Fworkingontech.jpg&signature=c078492c41d6c7807db1059e8d78dc3d")
     no-repeat;
   background-size: 100% 100%;
 }
@@ -799,13 +800,10 @@ footer {
   }
 
   .mobile-nav-logo > a {
-    color: #fff;
-  }
-
-  .mobile-nav-logo > a {
     background: linear-gradient(to bottom right, #c09, #f42 85%);
     font-size: 24px;
     font-weight: bold;
+    color: #fff;
     display: block;
     height: 5.4vh;
     padding: 12px 20px;
