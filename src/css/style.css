@@ -12,6 +12,10 @@ body {
 
 /* Navigation Bar  */
 
+header ul {
+  list-style: none;
+}
+
 .nav-tnw {
   display: inline-flex;
 }
@@ -48,11 +52,12 @@ body {
 }
 
 .nav-company li {
-  padding-right: 2vh;
+  padding-right: 1vw;
 }
 
 .nav-company {
   display: flex;
+  list-style: none;
 }
 
 .nav-sections {
@@ -129,6 +134,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
+  position: relative;
 }
 
 .main-article-right-one {
@@ -138,6 +144,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
+  position: relative;
 }
 
 .main-article-right-two {
@@ -147,6 +154,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
+  position: relative;
 }
 
 .main-article-created_at {
@@ -254,6 +262,7 @@ body {
   display: flex;
   margin: 0.1vw 0.1vw 0.1vw 1vw;
   color: white;
+  list-style: none;
 }
 
 .cover-byline li {
@@ -270,25 +279,28 @@ body {
 .cover-title-right {
   font-family: "Quicksand", sans-serif;
   color: #fff;
-  font-size: 2vw;
+  font-size: 1.5vw;
   max-width: 30vw;
   font-weight: bolder;
-  margin: 1vw 0.1px 1.5vw 1vw;
+  margin: 1vw 0.1px 0.3vw 1vw;
 }
 
 .article-info {
   position: absolute;
-  bottom: 25%;
+  bottom: 0;
+  max-height: 100%;
 }
 
 .article-info-side1 {
   position: absolute;
-  bottom: 56.5%;
+  bottom: 0;
+  max-height: 100%;
 }
 
 .article-info-side2 {
   position: absolute;
-  bottom: 22.5%;
+  bottom: 0;
+  max-height: 100%;
 }
 
 /* Latest news */
@@ -557,7 +569,8 @@ footer {
 
   .article-info {
     position: absolute;
-    bottom: 57%;
+    bottom: 0;
+    max-height: 100%;
   }
 
   .article-info-side1 {
