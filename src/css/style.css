@@ -184,16 +184,17 @@ body {
 }
 
 .fund-story {
-  width: 25%;
+  width: 23.5%;
   position: relative;
 }
 
 .fund-story-paragraph {
   width: 60%;
-  margin: auto;
-  font-size: 1rem;
-  padding-top: 3vh;
-  line-height: 4vh;
+  margin: 3vh auto auto 2vh;
+  line-height: 5vh;
+  font-size: small;
+  color: #5a5a5a;
+  background-color: #fffaf8;
 }
 
 .investmentCard-name {
@@ -213,14 +214,14 @@ body {
   font-size: 1.5rem;
   text-align: center;
   font-weight: bold;
-  padding: 1vh 15vh 0 0;
+  padding: 2vh 15vh 0 0;
 }
 
 .story-investmentCard-deets h5 {
-  font-size: 1rem;
+  font-size: 0.7rem;
   color: #7f7472;
   text-align: center;
-  padding: 1vh 10vh 0 0;
+  padding: 1vh 15vh 2vh 0;
   text-transform: uppercase;
 }
 
@@ -456,15 +457,23 @@ body {
 /* Handles footer */
 
 .social-media-footer {
-  background-color: gray;
   text-align: center;
   height: 10rem;
+  background-color: #131313;
+}
+
+.social-media-footer ul {
+  padding-top: 2.5%;
 }
 
 .footer-links-social li {
-  display: inline;
+  display: inline-block;
+  padding: 3vh;
   border-radius: 50%;
-  background-color: red;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  font-size: 1.2rem;
+  margin-right: 3vh;
 }
 
 .footer-links-menu li {
@@ -476,6 +485,35 @@ body {
   background-color: #000;
   height: 5rem;
   text-align: center;
+}
+
+.copyrights-content {
+  display: block;
+  padding-top: 2%;
+}
+
+.red-heart {
+  color: red;
+}
+
+/* Footer Section  */
+.footer-legal-logoTNW {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
+}
+
+.footer-links-menu-item {
+  text-decoration: none;
+  color: #aaa;
+  text-transform: uppercase;
+  padding-left: 1vh;
+  font-size: 0.8rem;
+}
+
+footer {
+  margin-top: 5vh;
 }
 
 /* Media Queries  */
