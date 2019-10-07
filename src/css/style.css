@@ -212,6 +212,7 @@ header ul {
   color: white;
   padding: 1vh 15vh 0 0;
   font-weight: bold;
+  margin: 0;
 }
 
 .story-investmentCard-deets {
@@ -223,6 +224,7 @@ header ul {
   text-align: center;
   font-weight: bold;
   padding: 2vh 15vh 0 0;
+  margin: 0;
 }
 
 .story-investmentCard-deets h5 {
@@ -231,6 +233,7 @@ header ul {
   text-align: center;
   padding: 1vh 15vh 2vh 0;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .saas-icon-div span,
@@ -366,6 +369,7 @@ header ul {
 .latest-funding-list {
   display: flex;
   float: right;
+  list-style: none;
 }
 
 /* Recent news by category */
@@ -374,6 +378,10 @@ header ul {
   display: flex;
   margin-top: 5%;
   flex-wrap: wrap;
+}
+
+.main-article-in-category {
+  position: relative;
 }
 
 .main-category-img {
@@ -386,8 +394,7 @@ header ul {
 }
 
 .category-one {
-  background:
-    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2Fworkingontech.jpg&signature=c078492c41d6c7807db1059e8d78dc3d")
+  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2Fworkingontech.jpg&signature=c078492c41d6c7807db1059e8d78dc3d")
     no-repeat;
   background-size: 100% 100%;
 }
@@ -433,10 +440,20 @@ header ul {
   max-width: 90%;
   padding-bottom: 2vh;
   margin: auto auto 0.5vh auto;
+  max-height: 100%;
 }
 
 .section-popular-byline {
   display: flex;
+  color: white;
+  list-style: none;
+  padding-left: 0;
+}
+
+.section-popular-byline a {
+  text-decoration: none;
+  color: white;
+  padding-right: 1em;
 }
 
 .latest-info {
