@@ -16,6 +16,13 @@ header ul {
   list-style: none;
 }
 
+header {
+  z-index: 2;
+  top: 0;
+  width: 100%;
+  position: fixed;
+}
+
 .nav-tnw {
   display: inline-flex;
 }
@@ -96,6 +103,7 @@ header ul {
   align-items: center;
   padding-left: 2rem;
   height: 3em;
+  background-color: white;
 }
 
 .second-header-navbar a {
@@ -426,7 +434,7 @@ header ul {
 }
 
 .category-latest {
-  display: inline-block;
+  display: flex;
   height: 22vh;
   background-color: #fff2f0;
 }
