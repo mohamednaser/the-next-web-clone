@@ -261,7 +261,7 @@ header {
 .story-title a {
   text-decoration: none;
   color: #000;
-  font-size: 1vw;
+  font-size: 1rem;
 }
 
 .story-byline a {
@@ -351,7 +351,7 @@ header {
   list-style: none;
   display: inline;
   color: #555;
-  font-size: 0.8vw;
+  font-size: 0.8rem;
 }
 
 .latest-news-img {
@@ -414,8 +414,7 @@ header {
 }
 
 .category-one {
-  background:
-    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2Fworkingontech.jpg&signature=c078492c41d6c7807db1059e8d78dc3d")
+  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2Fworkingontech.jpg&signature=c078492c41d6c7807db1059e8d78dc3d")
     no-repeat;
   background-size: 100% 100%;
 }
@@ -674,5 +673,53 @@ footer {
     width: 75px;
     height: 75px;
     margin-right: 4vw;
+  }
+
+  .latest-funding-list {
+    flex-direction: column;
+    float: none;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+  }
+
+  .latest-funding-list li {
+    border: none;
+    flex-direction: column;
+    float: none;
+    font-size: 0.9rem;
+    line-height: 3vh;
+    padding: 0;
+    margin: 0;
+  }
+
+  .story-investmentCard-company-image {
+    width: 12%;
+  }
+
+  .investmentCard-name,
+  .story-investmentCard-deets h4,
+  .story-investmentCard-deets h5 {
+    padding: 1vh 40vh 1vh 0;
+  }
+
+  .fund-story {
+    width: 100%;
+  }
+
+  .saas-icon-div,
+  .Salesforce-div {
+    padding-left: 2vh;
+  }
+
+  .category-item {
+    width: 100%;
+  }
+
+  .category-latest {
+    display: flow-root;
+  }
+
+  .latest-info-tittle {
+    max-width: 100%;
   }
 }
