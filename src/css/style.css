@@ -389,12 +389,18 @@ header ul {
 }
 
 .category-item {
-  width: 32%;
+  width: 27.5vw;
   margin: 1vh auto 5vh 2vh;
 }
 
+.img-container {
+  width: 26%;
+  float: right;
+}
+
 .category-one {
-  background: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2Fworkingontech.jpg&signature=c078492c41d6c7807db1059e8d78dc3d")
+  background:
+    url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2Fworkingontech.jpg&signature=c078492c41d6c7807db1059e8d78dc3d")
     no-repeat;
   background-size: 100% 100%;
 }
@@ -407,15 +413,17 @@ header ul {
 }
 
 .latest-category-img {
-  width: 40%;
+  width: 100%;
   float: right;
   display: block;
+  max-height: 100%;
 }
 
 .category-latest {
   display: inline-block;
   height: 11vh;
   background-color: #fff2f0;
+  width: 27.5vw;
 }
 
 .section-popular-section {
@@ -450,15 +458,10 @@ header ul {
   padding-left: 0;
 }
 
-.section-popular-byline a {
-  text-decoration: none;
-  color: white;
-  padding-right: 1em;
-}
-
 .latest-info {
   display: inline-block;
-  padding-left: 1vh;
+  padding-left: 1vw;
+  padding-bottom: 1vh;
 }
 
 .latest-word {
@@ -468,7 +471,7 @@ header ul {
 }
 
 .latest-info-tittle {
-  max-width: 23vh;
+  max-width: 18vw;
   display: inline-block;
   color: red;
   font-weight: bold;
@@ -568,6 +571,12 @@ footer {
   .category-articles-li a {
     text-decoration: none;
     color: #555;
+  }
+
+  .author-anchor {
+    text-decoration: none;
+    color: white;
+    padding-right: 1em;
   }
 
   .cover-byline li {
