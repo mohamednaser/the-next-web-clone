@@ -41,7 +41,7 @@ header {
   background: black;
   color: white;
   padding-left: 2rem;
-  height: 2rem;
+  height: 6vh;
   align-items: center;
 }
 
@@ -74,6 +74,7 @@ header {
 .nav-sections {
   display: flex;
   justify-content: space-between;
+  width: 50%;
 }
 
 .search-icon {
@@ -123,10 +124,6 @@ header {
   border-style: none;
   border-left: 1px solid #eee;
   text-align: center;
-}
-
-.fa-search {
-  padding-right: 2em;
 }
 
 /* Start Main Articles Section  */
