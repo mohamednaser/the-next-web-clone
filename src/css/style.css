@@ -329,7 +329,7 @@ header {
 
 .middle-articles-section {
   margin: 5% auto 0 auto;
-  width: 75%;
+  max-width: 1540px;
 }
 
 .latest-news-flex {
@@ -422,14 +422,21 @@ header {
 }
 
 .category-item {
-  width: 30%;
+  max-width: 430px;
   margin: 1vh auto 5vh 2vh;
+}
+
+.category-item article {
+  height: 250px;
+  width: 100%;
 }
 
 .img-container {
   width: 96px;
   height: 100%;
-  float: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .category-one {
@@ -488,10 +495,6 @@ header {
   background-size: 100% 100%;
 }
 
-.special-category {
-  margin: 1vh 4vh 5vh 2vh !important;
-}
-
 .category-title {
   font-size: 2rem;
   color: red;
@@ -501,7 +504,6 @@ header {
 
 .latest-category-img {
   width: 100%;
-  float: right;
   display: block;
   height: 100%;
 }
@@ -510,6 +512,7 @@ header {
   display: flex;
   height: 100px;
   background-color: #fff2f0;
+  position: relative;
 }
 
 .section-popular-section {
@@ -517,7 +520,6 @@ header {
   font-family: Helvetica, sans-serif;
   font-weight: bold;
   color: white;
-  margin-bottom: 3vh;
 }
 
 .author-anchor {
@@ -538,7 +540,6 @@ header {
 .section-popular-title {
   font-size: 1.2rem;
   color: white;
-  margin-bottom: 3vh;
   display: block;
   text-decoration: none;
 }
@@ -563,6 +564,10 @@ header {
   padding: 1vh 0 1vh 1vw;
 }
 
+.latest-info p {
+  margin: 0;
+}
+
 .latest-word {
   color: red;
   font-weight: bold;
@@ -570,11 +575,13 @@ header {
 }
 
 .latest-info-tittle {
-  max-width: 18vw;
+  max-width: 60%;
   display: inline-block;
   color: red;
   font-weight: bold;
   line-height: 1.5em;
+  position: absolute;
+  bottom: 10px;
 }
 
 .category-articles-li {
@@ -661,7 +668,96 @@ footer {
 
 /* Media Queries  */
 
-@media (max-width: 1080px) {
+@media (max-width: 960px) {
+  .category-item {
+    width: 870px;
+    max-width: 900px;
+  }
+
+  .category-articles-li {
+    font-size: 1rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .lat-new-art {
+    width: 30%;
+    margin: 5px;
+  }
+
+  .latest-news-flex {
+    justify-content: flex-start;
+  }
+
+  .fund-story {
+    width: 30%;
+    margin: 5px;
+  }
+
+  .top-header-navbar {
+    display: none;
+  }
+
+  .nav-sections {
+    display: none;
+  }
+
+  .mobile-nav-bar {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .search-icon-div {
+    display: none;
+  }
+
+  .TNW-logo {
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
+    width: 106px;
+    height: 48px;
+    text-align: center;
+    padding-top: 6px;
+  }
+
+  .mobile-nav-logo {
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    height: 100%;
+    text-align: center;
+    width: 90px;
+    position: absolute;
+    left: 0;
+  }
+
+  .mobile-nav-logo > a {
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+  }
+
+  .search-header {
+    text-align: center;
+    top: 21%;
+    right: 3%;
+    position: absolute;
+  }
+
+  .menu-header {
+    top: 21%;
+    right: 3%;
+    position: absolute;
+  }
+
+  .second-header-navbar {
+    position: relative;
+  }
 }
 
 @media (max-width: 720px) {
@@ -875,15 +971,22 @@ footer {
     padding-top: 6px;
   }
 
-  .mobile-nav-logo > a {
+  .mobile-nav-logo {
     background: linear-gradient(to bottom right, #c09, #f42 85%);
     font-size: 24px;
     font-weight: bold;
     color: #fff;
     display: block;
-    height: 5.4vh;
+    height: 100%;
     padding: 12px 20px;
     text-align: center;
-    width: 21%;
+    width: 90px;
+  }
+
+  .mobile-nav-logo > a {
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    left: 20px;
   }
 }
