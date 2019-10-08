@@ -142,7 +142,8 @@ header {
 .main-article-left {
   grid-column: 1 / 1;
   grid-row: 1/3;
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Apple-TV-back-to-the-future-header-image-796x417.png");
+  background-image: url(../imgs/black-gradient.png),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Apple-TV-back-to-the-future-header-image-796x417.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -151,7 +152,8 @@ header {
 
 .main-article-right-one {
   grid-column: 2 / 2;
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Catalina-796x417.jpg");
+  background-image: url(../imgs/black-gradient.png),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Catalina-796x417.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -160,7 +162,8 @@ header {
 
 .main-article-right-two {
   grid-column: 2 / 2;
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/07/amazon-boxes-prime-2017-796x448.jpg");
+  background-image: url(../imgs/black-gradient.png),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/07/amazon-boxes-prime-2017-796x448.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -195,10 +198,10 @@ header {
 
 /* funds story  */
 .story-investmentCard-company-image {
-  width: 15%;
+  width: 4vw;
   position: absolute;
-  top: 5px;
-  left: 22px;
+  top: 3%;
+  left: 6%;
 }
 
 .fund-story {
@@ -207,7 +210,7 @@ header {
 }
 
 .fund-story-paragraph {
-  width: 60%;
+  width: 90%;
   margin: 3vh auto auto 2vh;
   line-height: 5vh;
   font-size: small;
@@ -220,7 +223,7 @@ header {
   text-align: center;
   background: red;
   color: white;
-  padding: 1vh 15vh 0 0;
+  padding: 1vh 0 0 15%;
   font-weight: bold;
   margin: 0;
 }
@@ -233,7 +236,7 @@ header {
   font-size: 1.5rem;
   text-align: center;
   font-weight: bold;
-  padding: 2vh 15vh 0 0;
+  padding: 1vh 0 0 15%;
   margin: 0;
 }
 
@@ -241,7 +244,7 @@ header {
   font-size: 0.7rem;
   color: #7f7472;
   text-align: center;
-  padding: 1vh 15vh 2vh 0;
+  padding: 1vh 0 0 15%;
   text-transform: uppercase;
   margin: 0;
 }
@@ -268,7 +271,7 @@ header {
 
 .story-byline a {
   text-decoration: none;
-  color: #555;
+  color: #aaa;
 }
 
 .cover-byline {
@@ -389,6 +392,16 @@ header {
 }
 
 /* Recent news by category */
+.black-gradin {
+  background: transparent url(../imgs/black-gradient.png);
+  background-size: 100% 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
 
 .recent-category-container {
   display: flex;
@@ -397,7 +410,7 @@ header {
 }
 
 .main-article-in-category {
-  position: relative;
+  height: 60vh;
 }
 
 .main-category-img {
@@ -416,59 +429,63 @@ header {
 }
 
 .category-one {
-  background:
+  background: url(../imgs/black-gradient.png),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Insta-group-stories-1-796x417.jpg")
-    no-repeat;
+      no-repeat;
   background-size: 100% 100%;
 }
 
 .category-two {
-  background:
+  background: url(../imgs/black-gradient.png),
     url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2FSnag_84a9491c.png&signature=b07110233c5c929262ca4b075d0df0af")
-    no-repeat;
+      no-repeat;
   background-size: 100% 100%;
 }
 
 .category-three {
-  background:
+  background: url(../imgs/black-gradient.png),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/musk_toot-796x417.jpg")
-    no-repeat;
+      no-repeat;
   background-size: 100% 100%;
 }
 
 .category-four {
-  background:
+  background: url(../imgs/black-gradient.png),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Annotation-2019-09-19-121214-796x398.png")
-    no-repeat;
+      no-repeat;
   background-size: 100% 100%;
 }
 
 .category-five {
-  background:
+  background: url(../imgs/black-gradient.png),
     url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2Fqusai-akoud-4c-S3I1IUUw-unsplash.jpg&signature=e3c90eb9c55982cb308c7cba4c2b1589")
-    no-repeat;
+      no-repeat;
   background-size: 100% 100%;
 }
 
 .category-six {
-  background:
+  background: url(../imgs/black-gradient.png),
     url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F10%2FUntitled-design-91.jpg&signature=959167d30071cc10453a3b7143304e59")
-    no-repeat;
+      no-repeat;
   background-size: 100% 100%;
 }
 
 .category-seven {
-  background:
+  background: url(../imgs/black-gradient.png),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/Google-Assistant-phone-line-796x419.jpg")
-    no-repeat;
+      no-repeat;
   background-size: 100% 100%;
 }
 
 .category-eight {
-  background:
+  background: url(../imgs/black-gradient.png),
     url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/10/Wendys-RPG-796x417.jpg")
-    no-repeat;
+      no-repeat;
   background-size: 100% 100%;
+}
+
+.special-category {
+  margin: 1vh 4vh 5vh 2vh !important;
 }
 
 .category-title {
@@ -506,15 +523,16 @@ header {
 }
 
 .timeago {
-  color: hsla(0, 0%, 100%, 0.6);
+  color: #aaa;
 }
 
 .category-articles-ul {
   margin-top: 5vh;
+  padding-inline-start: 0;
 }
 
 .section-popular-title {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: white;
   margin-bottom: 3vh;
   display: block;
@@ -782,7 +800,7 @@ footer {
   }
 
   .fund-story-paragraph {
-    width: 60%;
+    width: 90%;
     margin: 3vh auto 2vh 2vh;
     line-height: 2vh;
     font-size: small;
@@ -814,8 +832,9 @@ footer {
     margin-left: 3vw;
   }
 
+  /* Media Query Stuff  */
   .main-article-in-category {
-    position: relative;
+    /* position: relative; */
     height: 50vh;
     margin: 0;
   }
