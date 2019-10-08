@@ -414,6 +414,7 @@ header {
 
 .main-article-in-category {
   height: 250px;
+  position: relative;
 }
 
 .main-category-img {
@@ -543,12 +544,11 @@ header {
 }
 
 .article-header {
-  vertical-align: baseline;
-  padding-top: 25%;
   max-width: 90%;
-  padding-bottom: 2vh;
-  margin: auto auto 0.5vh auto;
+  margin: auto auto 0.5vh 1vw;
   max-height: 100%;
+  position: absolute;
+  bottom: 0;
 }
 
 .section-popular-byline {
