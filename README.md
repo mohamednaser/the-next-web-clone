@@ -23,6 +23,12 @@ This project was executed by the duo of :
 ## Done Work
 
 - [x] Create Fixed Header Nav Bar
+- [x] Create Main Article Section (right , left ) sides 
+- [x] Create Latest News Section.
+- [x] Create Microsoft Eurface Events Section.
+- [x] Create Latest Funding News Section.
+- [x] Create App News Section.
+- [x] Create Latest Deals Section.
 - [x] Create Article Div
 - [x] Crete footer div
 - [x] Use Semintaic HTML
@@ -45,7 +51,11 @@ Live version [here](www.google.com) [pending].
 
 ## ScreenShot For Page
 ### ScreenShot In Desktop Screen
-![Image of Yaktocat](./src/imgs/full_page_screenshot.png)
+![Image of Yaktocat](./build/imgs/full_page_screenshot.png)
 
-### ScreenShot In Screen < 670px
-![Image of Yaktocat](./src/imgs/full_page_screenshot.png)
+### ScreenShot In Screen < 960px (Meduim Screen )
+![Image of Yaktocat](./build/imgs/meduim-screen.png)
+
+
+### ScreenShot In Screen < 670px (Small Screen )
+![Image of Yaktocat](./build/imgs/small_screen.png)
