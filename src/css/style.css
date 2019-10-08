@@ -608,12 +608,16 @@ header {
 
 .social-media-footer {
   text-align: center;
-  height: 10rem;
+  height: 30vh;
   background-color: #131313;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
 }
 
 .social-media-footer ul {
-  padding-top: 2.5%;
+  padding-top: 1.5%;
 }
 
 .footer-links-social li {
