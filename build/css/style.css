@@ -6,7 +6,7 @@ body {
 
 * {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /* General Rules  */
@@ -43,15 +43,15 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background: black;
   color: white;
   padding-left: 2rem;
   height: 6vh;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .top-header-navbar a {
@@ -87,8 +87,8 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 50%;
 }
 
@@ -112,8 +112,8 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .nav-message-content {
@@ -126,11 +126,11 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-left: 2rem;
   height: 3em;
   background-color: white;
@@ -159,6 +159,7 @@ header {
   grid-template-rows: auto auto;
   height: 66vh;
   margin: 1vh;
+  margin: 10% 1vh 0 0;
 }
 
 .main-article-left {
@@ -366,12 +367,12 @@ header {
   margin-top: 5vh;
   font-size: 0.5rem;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-line-pack: justify;
-  align-content: space-between;
+      align-content: space-between;
 }
 
 .latest-news-flex ul {
@@ -446,7 +447,7 @@ header {
   display: flex;
   margin-top: 5%;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .main-article-in-category {
@@ -459,7 +460,7 @@ header {
 }
 
 .category-item {
-  max-width: 430px;
+  max-width: 25%;
   margin: 1vh auto 5vh 2vh;
 }
 
@@ -582,7 +583,7 @@ header {
 .category-articles-ul {
   margin-top: 5vh;
   -webkit-padding-start: 0;
-  padding-inline-start: 0;
+          padding-inline-start: 0;
 }
 
 .section-popular-title {
@@ -665,12 +666,12 @@ header {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -ms-flex-pack: distribute;
-  justify-content: space-around;
+      justify-content: space-around;
   -ms-flex-line-pack: distribute;
-  align-content: space-around;
+      align-content: space-around;
 }
 
 .social-media-footer ul {
@@ -750,8 +751,8 @@ footer {
 
   .latest-news-flex {
     -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
 
   .fund-story {
@@ -778,14 +779,7 @@ footer {
   }
 
   .TNW-logo {
-    background:
-      -webkit-gradient(
-        linear,
-        left top,
-        right bottom,
-        from(#c09),
-        color-stop(85%, #f42)
-      );
+    background: -webkit-gradient(linear, left top, right bottom, from(#c09), color-stop(85%, #f42));
     background: linear-gradient(to bottom right, #c09, #f42 85%);
     width: 106px;
     height: 48px;
@@ -794,14 +788,7 @@ footer {
   }
 
   .mobile-nav-logo {
-    background:
-      -webkit-gradient(
-        linear,
-        left top,
-        right bottom,
-        from(#c09),
-        color-stop(85%, #f42)
-      );
+    background: -webkit-gradient(linear, left top, right bottom, from(#c09), color-stop(85%, #f42));
     background: linear-gradient(to bottom right, #c09, #f42 85%);
     font-size: 24px;
     font-weight: bold;
@@ -865,11 +852,11 @@ footer {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     height: 100vh;
   }
 
@@ -948,8 +935,8 @@ footer {
     margin-top: 1vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 
   .lat-new-art {
@@ -968,8 +955,8 @@ footer {
   .latest-funding-list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     float: none;
     margin-top: 3vh;
     margin-bottom: 3vh;
@@ -979,8 +966,8 @@ footer {
     border: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     float: none;
     font-size: 0.9rem;
     line-height: 3vh;
@@ -1061,14 +1048,7 @@ footer {
   }
 
   .TNW-logo {
-    background:
-      -webkit-gradient(
-        linear,
-        left top,
-        right bottom,
-        from(#c09),
-        color-stop(85%, #f42)
-      );
+    background: -webkit-gradient(linear, left top, right bottom, from(#c09), color-stop(85%, #f42));
     background: linear-gradient(to bottom right, #c09, #f42 85%);
     width: 106px;
     height: 48px;
@@ -1077,14 +1057,7 @@ footer {
   }
 
   .mobile-nav-logo {
-    background:
-      -webkit-gradient(
-        linear,
-        left top,
-        right bottom,
-        from(#c09),
-        color-stop(85%, #f42)
-      );
+    background: -webkit-gradient(linear, left top, right bottom, from(#c09), color-stop(85%, #f42));
     background: linear-gradient(to bottom right, #c09, #f42 85%);
     font-size: 24px;
     font-weight: bold;

@@ -134,6 +134,7 @@ header {
   grid-template-rows: auto auto;
   height: 66vh;
   margin: 1vh;
+  margin: 10% 1vh 0 0;
 }
 
 .main-article-left {
@@ -421,7 +422,7 @@ header {
 }
 
 .category-item {
-  max-width: 430px;
+  max-width: 25%;
   margin: 1vh auto 5vh 2vh;
 }
 
