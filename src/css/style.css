@@ -8,10 +8,6 @@ body {
   box-sizing: border-box;
 }
 
-/* General Rules  */
-
-/* Navigation Bar  */
-
 header ul {
   list-style: none;
 }
@@ -126,7 +122,6 @@ header {
   text-align: center;
 }
 
-/* Start Main Articles Section  */
 .main-articles-div {
   display: grid;
   grid-template-columns: 65% auto;
@@ -134,7 +129,7 @@ header {
   grid-template-rows: auto auto;
   height: 66vh;
   margin: 1vh;
-  margin: 10% 1vh 0 0;
+  margin: calc(4em + 6vh + 30px) 1vh 0 0;
 }
 
 .main-article-left {
@@ -196,7 +191,6 @@ header {
   max-width: 60vw;
 }
 
-/* funds story  */
 .story-investmentCard-company-image {
   width: 4vw;
   position: absolute;
@@ -325,8 +319,6 @@ header {
   max-height: 100%;
 }
 
-/* Latest news */
-
 .middle-articles-section {
   margin: 5% auto 0 auto;
   max-width: 1540px;
@@ -394,7 +386,6 @@ header {
   list-style: none;
 }
 
-/* Recent news by category */
 .black-gradin {
   background: transparent url(../imgs/black-gradient.png);
   background-size: 100% 100%;
@@ -612,8 +603,6 @@ header {
   position: absolute;
 }
 
-/* Handles footer */
-
 .social-media-footer {
   text-align: center;
   height: 30vh;
@@ -658,7 +647,6 @@ header {
   color: red;
 }
 
-/* Footer Section  */
 .footer-legal-logoTNW {
   display: inline-block;
   height: 9px;
@@ -677,8 +665,6 @@ header {
 footer {
   margin-top: 5vh;
 }
-
-/* Media Queries  */
 
 @media (max-width: 960px) {
   .category-item {
@@ -756,21 +742,25 @@ footer {
 
   .search-header {
     text-align: center;
-    /* top: 21%;
-    right: 3%; */
+    top: 21%;
+    right: 3%;
     position: absolute;
     margin: 0.5vh 0 0 0;
   }
 
   .menu-header {
-    /* top: 21%;
-    right: 3%; */
+    top: 21%;
+    right: 3%;
     position: absolute;
     margin: 0.5vh 4vh 0 0;
   }
 
   .second-header-navbar {
     position: relative;
+  }
+
+  .button-search {
+    display: none;
   }
 }
 
@@ -1002,5 +992,9 @@ footer {
     position: absolute;
     top: 10px;
     left: 20px;
+  }
+
+  .button-search {
+    display: none;
   }
 }
