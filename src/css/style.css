@@ -734,7 +734,7 @@ footer {
   .mobile-nav-logo > a {
     color: #fff;
     position: absolute;
-    top: 20px;
+    top: 35px;
     left: 20px;
   }
 
@@ -791,6 +791,7 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+    margin: calc(6em) 1vh 0 0;
   }
 
   .cover-section {
