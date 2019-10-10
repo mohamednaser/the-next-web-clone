@@ -47,7 +47,7 @@ git clone git@github.com:mohamednaser/the-next-web-clone.git
 
 ## Live Version
 
-Live version [here](https://mohamednaser.github.io/the-next-web-clone/) [pending].
+Live version [here](https://mohamednaser.github.io/the-next-web-clone/).
 
 ## ScreenShot For Page
 ### ScreenShot In Desktop Screen
