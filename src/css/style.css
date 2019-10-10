@@ -36,7 +36,6 @@ header {
   justify-content: space-between;
   background: black;
   color: white;
-  padding-left: 2rem;
   height: 6vh;
   align-items: center;
 }
@@ -54,8 +53,7 @@ header {
 .right-list {
   display: block;
   float: right;
-  width: 20%;
-  margin: auto 8vh;
+  margin: auto 2vh;
 }
 
 .nav-company li {
@@ -70,7 +68,6 @@ header {
 .nav-sections {
   display: flex;
   justify-content: space-between;
-  width: 50%;
 }
 
 .search-icon {
@@ -83,7 +80,7 @@ header {
 }
 
 .nav-section-div {
-  width: 60%;
+  width: 50%;
   display: inline-block;
 }
 
@@ -102,7 +99,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 2rem;
   height: 3em;
   background-color: white;
 }
@@ -694,17 +690,18 @@ footer {
     margin: 5px;
   }
 
-  .top-header-navbar {
-    display: none;
+  .nav-section-div {
+    width: 60%;
+    margin-right: 33%;
   }
 
   .nav-sections {
-    display: none;
+    width: 100%;
   }
 
   .mobile-nav-bar {
     display: block;
-    width: 100%;
+    width: 5%;
     height: 100%;
   }
 
@@ -726,22 +723,30 @@ footer {
     font-weight: bold;
     color: #fff;
     display: block;
-    height: 100%;
+    height: 74%;
     text-align: center;
     width: 90px;
     position: absolute;
     left: 0;
+    top: 0;
   }
 
   .mobile-nav-logo > a {
     color: #fff;
     position: absolute;
-    top: 10px;
+    top: 20px;
     left: 20px;
   }
 
+  .right-list {
+    display: none;
+  }
+
+  .top-header-navbar {
+    padding-left: 4rem;
+  }
+
   .search-header {
-    text-align: center;
     top: 21%;
     right: 3%;
     position: absolute;
@@ -753,10 +758,6 @@ footer {
     right: 3%;
     position: absolute;
     margin: 0.5vh 4vh 0 0;
-  }
-
-  .second-header-navbar {
-    position: relative;
   }
 
   .button-search {
@@ -773,13 +774,14 @@ footer {
   .search-header {
     text-align: center;
     top: 21%;
-    right: 3%;
+    right: 10%;
     position: absolute;
   }
 
   .menu-header {
     top: 21%;
-    right: 3%;
+    right: 0%;
+    color: orange;
     position: absolute;
   }
 
@@ -981,7 +983,7 @@ footer {
     font-weight: bold;
     color: #fff;
     display: block;
-    height: 100%;
+    height: 58%;
     padding: 12px 20px;
     text-align: center;
     width: 90px;
